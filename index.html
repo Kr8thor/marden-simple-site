@@ -23,11 +23,23 @@
       text-decoration: none;
       margin-top: 20px;
     }
+    .status {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f0f9ff;
+      border-left: 4px solid #2563eb;
+    }
   </style>
 </head>
 <body>
   <h1>MardenSEO Audit Tool</h1>
   <p>Free, lightning-fast, and powered by AI—MardenSEO Audit gives you crystal-clear SEO insights with zero fluff.</p>
+  
+  <div class="status">
+    <p><strong>Deployment Status:</strong> Successfully deployed at <%= new Date().toLocaleString() %></p>
+    <p>This confirms your Netlify deployment is working correctly.</p>
+  </div>
+  
   <p>Our enhanced features include:</p>
   <ul>
     <li>Schema.org structured data validation</li>
@@ -35,7 +47,7 @@
     <li>Advanced site crawling</li>
     <li>Comprehensive SEO recommendations</li>
   </ul>
-  <p>This placeholder confirms your Netlify deployment is working correctly.</p>
+  
   <a href="#" class="button">Try Enhanced Analysis</a>
 </body>
 </html>
